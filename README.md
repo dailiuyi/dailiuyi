@@ -2,7 +2,6 @@
 
 天津商业大学 · 软件工程 2024 级 · **Java 后端开发实习**
 
-我是戴柳逸，主要寻找 Java 后端开发实习机会。我从 12 岁开始参加算法竞赛，已有 8 年算法训练；做过 Java 后端与运维实习，也把 AI Agent 协作、契约先行和代码审查用于真实项目交付。
 
 **个人站** [elma-gohan.xyz](https://elma-gohan.xyz) · **邮箱** dailiuyi@tjcu.edu.cn
 
