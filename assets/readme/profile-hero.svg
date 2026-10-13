@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="auto" role="img" aria-label="Dai Liuyi Developer Profile Banner">
+  <title>Dai Liuyi Developer Profile Hero</title>
+  <style><![CDATA[
+    .bg { fill: #0b0f19; }
+    .grid { stroke: #1e293b; stroke-width: 1; stroke-dasharray: 4,4; }
+    .panel { fill: #111827; stroke: #1e293b; stroke-width: 1.5; }
+    .badge { fill: #1e293b; stroke: #334155; stroke-width: 1; }
+    .txt-tag { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 12px; font-weight: 600; fill: #38bdf8; letter-spacing: 0.12em; text-transform: uppercase; }
+    .txt-name { font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 38px; font-weight: 800; fill: #f8fafc; letter-spacing: -0.02em; }
+    .txt-handle { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 20px; font-weight: 500; fill: #64748b; }
+    .txt-desc { font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 16px; line-height: 1.6; fill: #94a3b8; }
+    .txt-sub { font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 14px; fill: #cbd5e1; }
+    .txt-metric-lbl { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 11px; fill: #64748b; letter-spacing: 0.05em; }
+    .txt-metric-val { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 13px; font-weight: 700; fill: #38bdf8; }
+    .telemetry-txt { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 11px; fill: #64748b; }
+    .telemetry-val { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 11px; font-weight: 600; fill: #34d399; }
+    .line-accent { stroke: #38bdf8; stroke-width: 2; }
+
+    @media (prefers-color-scheme: light) {
+      .bg { fill: #f8fafc; }
+      .grid { stroke: #e2e8f0; }
+      .panel { fill: #ffffff; stroke: #e2e8f0; }
+      .badge { fill: #f1f5f9; stroke: #cbd5e1; }
+      .txt-tag { fill: #0284c7; }
+      .txt-name { fill: #0f172a; }
+      .txt-handle { fill: #94a3b8; }
+      .txt-desc { fill: #475569; }
+      .txt-sub { fill: #334155; }
+      .txt-metric-lbl { fill: #64748b; }
+      .txt-metric-val { fill: #0284c7; }
+      .telemetry-txt { fill: #64748b; }
+      .telemetry-val { fill: #059669; }
+      .line-accent { stroke: #0284c7; }
+    }
+  ]]></style>
+
+  <!-- Background -->
+  <rect width="1200" height="360" rx="16" class="bg" />
+
+  <!-- Coordinate Grid -->
+  <g class="grid">
+    <line x1="60" y1="0" x2="60" y2="360" />
+    <line x1="320" y1="0" x2="320" y2="360" />
+    <line x1="600" y1="0" x2="600" y2="360" />
+    <line x1="880" y1="0" x2="880" y2="360" />
+    <line x1="0" y1="70" x2="1200" y2="70" />
+    <line x1="0" y1="180" x2="1200" y2="180" />
+    <line x1="0" y1="290" x2="1200" y2="290" />
+  </g>
+
+  <!-- Left: Developer Identity & Focus -->
+  <g transform="translate(60, 42)">
+    <!-- Pill Badge -->
+    <rect x="0" y="0" width="250" height="26" rx="13" class="badge" />
+    <circle cx="12" cy="13" r="4" fill="#38bdf8" />
+    <text x="24" y="17" class="txt-tag">SOFTWARE ENGINEER // BACKEND</text>
+
+    <!-- Name & Handle -->
+    <g transform="translate(0, 64)">
+      <text x="0" y="0" class="txt-name">戴柳逸</text>
+      <text x="130" y="-3" class="txt-handle">/ dailiuyi</text>
+    </g>
+
+    <!-- Role Summary -->
+    <text x="0" y="98" class="txt-desc">天津商业大学 · 软件工程 · 聚焦 Java 后端、系统工程与 AI 研发工具链</text>
+    <text x="0" y="124" class="txt-desc">推崇契约驱动（Contract-First）、讲求边界与可验证性，具备竞赛级算法与工程交付实践。</text>
+
+    <!-- Feature Pillars -->
+    <g transform="translate(0, 160)">
+      <!-- Pillar 1 -->
+      <g transform="translate(0, 0)">
+        <rect width="170" height="40" rx="8" class="panel" />
+        <circle cx="18" cy="20" r="4" fill="#38bdf8" />
+        <text x="32" y="25" class="txt-sub">Java 17 / Spring Boot</text>
+      </g>
+      <!-- Pillar 2 -->
+      <g transform="translate(182, 0)">
+        <rect width="160" height="40" rx="8" class="panel" />
+        <circle cx="18" cy="20" r="4" fill="#34d399" />
+        <text x="32" y="25" class="txt-sub">Elixir / OTP 编排</text>
+      </g>
+      <!-- Pillar 3 -->
+      <g transform="translate(354, 0)">
+        <rect width="180" height="40" rx="8" class="panel" />
+        <circle cx="18" cy="20" r="4" fill="#fb7185" />
+        <text x="32" y="25" class="txt-sub">契约驱动 OpenAPI</text>
+      </g>
+    </g>
+
+    <!-- Footer Links Indicator -->
+    <g transform="translate(0, 222)">
+      <text x="0" y="0" class="telemetry-txt">ONLINE PORTFOLIO · </text>
+      <text x="140" y="0" class="telemetry-val">elma-gohan.xyz</text>
+      <text x="270" y="0" class="telemetry-txt">· GITHUB · </text>
+      <text x="340" y="0" class="telemetry-val">github.com/dailiuyi</text>
+    </g>
+  </g>
+
+  <!-- Right: Telemetry / Engineering Console -->
+  <g transform="translate(680, 42)">
+    <!-- Console Outer Card -->
+    <rect width="460" height="276" rx="14" class="panel" />
+    
+    <!-- Console Header -->
+    <line x1="0" y1="36" x2="460" y2="36" stroke="#1e293b" class="grid" />
+    <circle cx="20" cy="18" r="4" fill="#38bdf8" />
+    <text x="32" y="22" class="telemetry-txt">DEV_METRICS_HUD // PROFILE_TELEMETRY</text>
+    <rect x="375" y="10" width="65" height="18" rx="4" class="badge" />
+    <text x="388" y="22" class="telemetry-val">VERIFIED</text>
+
+    <!-- Matrix Rows -->
+    <g transform="translate(20, 52)">
+      <!-- Metric 1: Contest -->
+      <g transform="translate(0, 0)">
+        <rect width="420" height="46" rx="8" class="badge" />
+        <text x="16" y="20" class="txt-metric-lbl">ALGORITHM &amp; CONTEST</text>
+        <text x="16" y="36" class="txt-metric-val">CCPC 省银 / 国铜 · 蓝桥杯全国二等奖</text>
+      </g>
+
+      <!-- Metric 2: Agent Toolchain -->
+      <g transform="translate(0, 56)">
+        <rect width="420" height="46" rx="8" class="badge" />
+        <text x="16" y="20" class="txt-metric-lbl">AI AUTONOMOUS DEV TOOLCHAIN</text>
+        <text x="16" y="36" class="txt-metric-val">innovation-symphony / view / MR (OTP + Py)</text>
+      </g>
+
+      <!-- Metric 3: Full Stack Product -->
+      <g transform="translate(0, 112)">
+        <rect width="420" height="46" rx="8" class="badge" />
+        <text x="16" y="20" class="txt-metric-lbl">PRODUCTION PRACTICE</text>
+        <text x="16" y="36" class="txt-metric-val">ELMA 今天吃什么 · 独立上线备案运营</text>
+      </g>
+
+      <!-- Metric 4: Low-level Systems -->
+      <g transform="translate(0, 168)">
+        <rect width="420" height="46" rx="8" class="badge" />
+        <text x="16" y="20" class="txt-metric-lbl">SYSTEM &amp; GRAPHICS RESEARCH</text>
+        <text x="16" y="36" class="txt-metric-val">ThreeBodyLab (RK4) · MiniMalloc (C) · 4DGS</text>
+      </g>
+    </g>
+  </g>
+</svg>
